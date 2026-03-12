@@ -1,0 +1,526 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  width: 100%;
+display: grid;
+  justify-content: center; 
+}
+
+.container {
+  width: 1200px; 
+  position: relative;
+  transform-origin: top center; 
+  margin: 0 auto;
+}
+
+.logo{
+
+place-self: center;
+  display: grid;
+}
+  
+  .comic-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border: 5px solid black;
+  }
+  
+
+
+.comic-page0 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    max-width: 900px;
+    height: 700px;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border: 5px solid black;
+  }
+  
+
+
+
+
+
+
+  
+  
+
+
+
+  .comic-page2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-gap: 5px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 20px auto;
+  box-sizing: border-box; 
+  padding: 10px;
+  background: #16E9C2;
+  border: 5px solid black;
+}
+
+
+ .panel {
+  position: relative; 
+  height: 500px;
+  width: 100%;
+  overflow: hidden;    
+  border: 2px solid black;
+}
+
+
+ .panel5 {
+  position: relative; 
+  height: 900px;
+  width: 100%;
+  overflow: hidden;    
+  border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+.pic0 {
+  position: absolute;  
+  top: 20px;
+  right: 0px;
+  width: 750px;        
+  height: auto;     
+}
+
+
+.pic1 {
+  position: absolute;  
+  top: 20px;
+  right: 0px;
+  width: 450px;        
+  height: auto;     
+}
+
+
+.pic2 {
+  position: absolute;  
+  top: 20px;
+  right: 10px;
+  width: 450px;       
+  height: auto;        
+}
+
+.pic3 {
+  position: absolute; 
+  top: 170px;
+  right: 0px;
+  width: 400px;       
+  height: auto;    
+}
+
+.pic4 {
+  position: absolute; 
+  top: 10px;
+  left: 30px;
+  width: 450px;       
+  height: auto;       
+}
+
+  
+  
+
+.comic-textbox {
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #e8ab17;
+  border: 4px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px #000;
+  text-transform: uppercase;
+width: 95%; 
+max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+  user-select: none;  
+margin-bottom: 20px;
+  place-self: center;
+  display: block;     
+  box-sizing: border-box;
+}
+
+
+
+.comic-textbox5 {
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #e8ab17;
+  border: 4px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px #000;
+  text-transform: uppercase;
+  width: 700px;      
+  height:170px;
+  text-align: center; 
+  user-select: none;  
+  place-self: center;
+  z-index: 1000;
+  margin: 10px;
+}
+
+
+.comic-textbox8 {
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #16E9C2;
+  border: 4px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px #000;
+  text-transform: uppercase;
+width: 95%; 
+max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+  user-select: none;  
+margin-bottom: 20px;
+  place-self: center;
+  display: block;     
+  box-sizing: border-box;
+}
+
+
+   
+  .comic-page2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    max-width: 100vw;
+    margin-top: 50px;
+    background: #16E9C2;
+    padding: 5px;
+    border: 5px solid black;
+     place-items: center;
+  }
+ .panel2 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  background-color: white;
+  border: 3px solid black;
+  height: 100px;
+  width: 100%;         
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box; 
+}
+  
+  .speech-bubble {
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 340px;
+    left: 150px;
+    right:10px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 100;
+    text-align: center;
+  }
+  
+
+.speech-bubble2 {
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    bottom: 340px;
+    left: 180px;
+    right:30px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 100;
+    text-align: center;
+  }
+  
+  .speech-bubble3 {
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    bottom: 340px;
+    left: 70px;
+    right:110px;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 100;
+    text-align: center;
+  }
+  
+
+  .speech-bubble4 {
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    bottom: 340px;
+    left: 20px;
+    right:240px;
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 100;
+    text-align: center;
+  }
+
+
+
+
+
+
+  .comic-button {
+      font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 16px;
+    padding: 15px 25px;
+    color: #000;
+ background-color: #e8ab17;
+    border: 4px solid #000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #000;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+      place-self: center;
+  }
+
+  .comic-button:hover {
+    background-color: #fff176;
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0px #000;
+  }
+
+  .comic-button:active {
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px 0px #000;
+  }
+
+
+
+  .comic-button2 {
+      font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 16px;
+    padding: 15px 25px;
+    color: #000;
+ background-color: #16E9C2;
+    border: 4px solid #000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #000;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+      place-self: center;
+  }
+
+  .comic-button2:hover {
+    background-color: #16c2e9;
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0px #000;
+  }
+
+
+
+ .comic-button2:active {
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px 0px #000;
+  }
+
+
+
+
+
+
+
+  .background-cycler {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+.background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+    background-position: center;
+    opacity: 0; 
+    animation: fadeBackground 10s infinite; 
+}
+
+
+#img1 { background-image: url('krackle.jpg'); }
+#img2 { background-image: url('krackle2.jpg'); }
+#img3 { background-image: url('krackle3.jpg'); }
+
+#img1 { animation-delay: 0s; }
+#img2 { animation-delay: 4s; } 
+#img3 { animation-delay: 8s; } 
+
+@keyframes fadeBackground {
+    0% { opacity: .0; }
+
+    25% { opacity: 1; } 
+   
+    100% { opacity: .0; }
+}
+
+
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1000; 
+  padding-top: 50px; 
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  max-width: 800px;
+}
+
+.close {
+  position: absolute;
+  top: 15px; right: 35px;
+  color: white; font-size: 40px; font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #305eeb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(236, 43, 43);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
