@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="styles.css" />
+       <script src="script.js"></script>
+
+       
+</head>
+<body>
+
+
+
+    <div class="bg"></div>   
+   <div class="page-frame">
+    
+<div class="point nob"><a href="index 5.html"><img src="Prev.PNG" style= "height: 120px;
+     width: 150px; position:absolute;"  ></a>
+<a href="index 1.html" style="margin-left: 1190px;"; > <img src="Next.PNG" style= "height: 120px;
+     width: 150px";></a></div>
+
+<div class="names nob "><img src="Name .PNG" style= "height: 450px;
+     width: 900px;" ;> </div>
+
+
+
+
+
+
+
+
+
+<button class="accordion button1 direction " style="position:absolute;">Notable Work</button>
+<div class="panel nob">
+  <p> Captain America (Timley/Marvel Comics)
+  </p>
+   <p>Fantastic Four 1-102(Marvel Comics)  
+  </p>
+   <p> The New Gods (Dc Comics) 
+  </p>
+   <p> 2001 A Space Odditiy (Marvel Comics)
+  </p> 
+</div>
+
+  
+
+<script >
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
+
+
+<button onclick="myFunction()"  class="button2 nob" >Click Me for Bio/Blurb</button>
+
+<div id="myDIV"  class=" ploop nob2" >"Blurb; Kirby’s art is built on strong shapes and wild poses. His figures have often been compared to stone. Nothing on a Kirby Page stands still. A simple glance at his work shows why hes the king of comics "</div>
+ <div class="bio-background nob " ></div>
+
+
+  <div id="gridcontainer" class=" centered-div"  z-index:900;>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container fade nob">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade nob">
+    <div class="numbertext nob">1 / 4</div>
+    <img src="jkl.jpg"  style=" height: 450px;
+     width: 350px;">
+  
+  </div>
+
+  <div class="mySlides fade nob ">
+    <div class="numbertext nob">2 / 4</div>
+    <img src="j1.jpg" style="height: 450px;
+     width: 350px;">
+
+  </div>
+
+  <div class="mySlides fade nob">
+    <div class="numbertext nob">3 / 4</div>
+    <img src="j2.jpg" style="height: 450px;
+     width: 350px;">
+  
+  </div>
+
+
+  <div class="mySlides fade nob">
+    <div class="numbertext nob">4 / 4</div>
+    <img src="j3.jpg" style="height: 450px;
+     width: 350px;">
+   
+  </div>
+
+
+  <!-- Next and previous buttons -->
+
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center" class="nob">
+  <span class="dot nob" onclick="currentSlide(1) "></span>
+  <span class="dot nob" onclick="currentSlide(2)"></span>
+  <span class="dot nob" onclick="currentSlide(3)"></span>
+   <span class="dot nob" onclick="currentSlide(4)"></span>
+</div>
+ <div class="slideshow-background nob  " ></div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

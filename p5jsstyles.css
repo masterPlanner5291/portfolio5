@@ -1,0 +1,364 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  width: 100%;
+display: grid;
+  justify-content: center; 
+}
+
+.container {
+  width: 1200px; 
+  position: relative;
+  transform-origin: top center; 
+  margin: 0 auto;
+}
+
+
+
+.comic-textbox7{
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #e8ab17;
+  border: 4px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px #000;
+  text-transform: uppercase;
+  width: 700px;      
+  height:130px;
+  text-align: center; 
+  user-select: none;  
+  place-self: center;
+  z-index: 1000;
+  margin: 10px;
+  
+
+}
+
+
+
+
+.logo{
+
+place-self: center;
+  display: grid;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-self: center;
+ 
+}
+  .comic-page {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border: 5px solid black;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+
+  
+
+  #myDIV {
+    display: none;
+    
+  }
+  .comic-page3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 15px;
+    
+    max-width: 75vw;
+    margin-top: 50px;
+    background: #16E9C2;
+    padding: 5px;
+    border: 5px solid black;
+     place-items: center;
+       place-self: center
+  }
+
+
+
+  .panel {
+    background-color: white;
+    border: 3px solid black;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  
+.comic-page2 {
+ display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-gap: 5px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 20px auto;
+  box-sizing: border-box; 
+  padding: 10px;
+  background: #16E9C2;
+  border: 5px solid black;
+}
+
+.panel2 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  background-color: white;
+  border: 3px solid black;
+  height: 100px;
+  width: 100%;          
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box; 
+}
+.content {
+    display: none;
+     place-self: center
+}
+
+
+  .speech-bubble {
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  .comic-button {
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+font-size: 16px;
+    padding: 15px 25px;
+    color: #000;
+ background-color: #e8ab17;
+    border: 4px solid #000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #000;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+      place-self: center;
+  }
+
+  .comic-button:hover {
+    background-color: #fff176;
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0px #000;
+  }
+
+  .comic-button:active {
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px 0px #000;
+     background-color: #16E9C2;
+  }
+
+
+
+
+
+  .comic-button2 {
+       font-family: 'Times New Roman', serif;
+  font-weight: bold;
+font-size: 16px;
+    padding: 15px 25px;
+    color: #000;
+    border: 4px solid #000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #000;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+      place-self: center;
+   background-color: #16E9C2;
+  }
+
+  .comic-button2:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0px #000;
+  }
+
+
+
+ .comic-button2:active {
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px 0px #000;
+
+  }
+
+   .comic-button3 {
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+font-size: 16px;
+    padding: 15px 25px;
+    color: #000;
+    border: 4px solid #000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #000;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+      place-self: center;
+ background-color: #e8ab17;
+  }
+
+  .comic-button3:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0px #000;
+     background-color: #fff176;
+  }
+
+
+
+ .comic-button3:active {
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px 0px #000;
+ 
+
+  }
+ .comic-button3:focus{
+ background-color: #16E9C2;
+}
+
+
+
+
+
+
+
+
+  .background-cycler {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+    background-position: center;
+    opacity: 0; 
+    animation: fadeBackground 10s infinite; 
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.comic-textbox1 {
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #e8ab17;
+  border: 4px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px #000;
+  text-transform: uppercase; 
+  text-align: center; 
+  user-select: none;  
+width: 800px;
+  z-index: 10000;
+   top: 400px;
+   place-self: center;
+
+
+}
+
+.comic-textbox5 {
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #e8ab17;
+  border: 4px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px #000;
+  text-transform: uppercase;
+  width: 300px;      
+  text-align: center; 
+  user-select: none; 
+width: 900px;
+  z-index: 10000;
+   top: 400px;
+   place-self: center;
+
+
+}
+
+
+.comic-textbox2 {
+    font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #e8ab17;
+  border: 4px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px #000;
+  text-transform: uppercase;
+  width: 300px;     
+  text-align: center; 
+  user-select: none;  
+position: absolute;
+  z-index: 10000;
+   top: 400px;
+   right: 50px;
+
+
+}
+
+
+#img1 { background-image: url('krackle.jpg'); }
+#img2 { background-image: url('krackle2.jpg'); }
+#img3 { background-image: url('krackle3.jpg'); }
+
+#img1 { animation-delay: 0s; }
+#img2 { animation-delay: 4s; } 
+#img3 { animation-delay: 8s; }
+
+@keyframes fadeBackground {
+    0% { opacity: .0; }
+
+    25% { opacity: 1; } 
+   
+    100% { opacity: .0; }
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="styles4.css" />
+       <script src="script  4.js"></script>
+
+       
+</head>
+<body>
+
+
+
+    <div class="bg"></div>   
+   <div class="page-frame">
+    
+<div class="point nob"><a href="index 3.html"><img src="Prev.PNG" style= "height: 120px;
+     width: 150px; position:absolute;"  ></a>
+<a href="index 5.html" style="margin-left: 1190px;"; > <img src="Next.PNG" style= "height: 120px;
+     width: 150px";></a></div>
+
+<div class="names nob "><img src="Name4.PNG" style= "height: 450px;
+     width: 900px;" ;> </div>
+
+
+
+
+
+
+
+
+
+<button class="accordion button1 direction " style="position:absolute;">Notable Work</button>
+<div class="panel nob">
+  <p> Beta Ray Bill (Marvel Comics)
+  </p>
+   <p>Wonder Woman Dead Earth (DC Comics)  
+  </p>
+   <p> Murder Falcon (Image Comics)
+  </p>
+   <p> Do a Power Bomb (Image Comics)
+  </p> 
+</div>
+
+  
+
+<script >
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
+
+
+<button onclick="myFunction()"  class="button2 nob" >Click Me for Bio/Blurb</button>
+
+<div id="myDIV"  class=" ploop nob2" >"Blurb; Johonson's work is nothing short of controlled anarchy. He uses choppy and varied linework inorder to portay characters in the most organic ways possible. He can go from showing some of the most exprissive potrails of love to some of the most body bending grumsome violence in a single filp of a page."</div>
+ <div class="bio-background nob " ></div>
+
+
+  <div id="gridcontainer" class=" centered-div"  z-index:900;>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container fade nob">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade nob">
+    <div class="numbertext nob">1 / 4</div>
+    <img src="DW.jpg"  style=" height: 450px;
+     width: 350px;">
+  
+  </div>
+
+  <div class="mySlides fade nob ">
+    <div class="numbertext nob">2 / 4</div>
+    <img src="dw2.jpg" style="height: 450px;
+     width: 350px;">
+
+  </div>
+ 
+  <div class="mySlides fade nob">
+    <div class="numbertext nob">3 / 4</div>
+    <img src="dw3.jpg" style="height: 450px;
+     width: 350px;">
+  
+  </div>
+
+
+  <div class="mySlides fade nob">
+    <div class="numbertext nob">4 / 4</div>
+    <img src="dw4.jpg" style="height: 450px;
+     width: 350px;">
+   
+  </div>
+
+
+  <!-- Next and previous buttons -->
+
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center" class="nob">
+  <span class="dot nob" onclick="currentSlide(1) "></span>
+  <span class="dot nob" onclick="currentSlide(2)"></span>
+  <span class="dot nob" onclick="currentSlide(3)"></span>
+   <span class="dot nob" onclick="currentSlide(4)"></span>
+</div>
+ <div class="slideshow-background nob  " ></div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

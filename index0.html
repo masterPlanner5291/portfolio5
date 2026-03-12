@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles0.css">
+    <script src="0script.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo"><img src="logo.PNG"  width="550vw" height="200vh" ></div>
+
+<div class="comic-page2">
+ <div class="panel2">
+<a href="index0.html"><button class="comic-button2" >Home Page</button></div></a>
+
+
+
+
+
+ <div class="panel2">
+<a href="p5js.html"><button class="comic-button" >Programming for VA</button></div></a>
+
+
+
+ <div class="panel2">
+<a href="sound.html"><button class="comic-button" >Intro to Sound</button></div></a>
+
+ <div class="panel2">
+<a href="web.html"><button class="comic-button" >Intro to Web</button></div></a>
+
+ <div class="panel2">
+<a href="video.html"><button class="comic-button" >Video Art</button></div></a>
+
+  
+
+ </div>
+
+<div class="comic-page">
+   
+  <div class="panel">
+    <div class="speech-bubble">Hello, I'm Jack Dieso and this is my New Media Advanced Standing Portfolio!</div>
+    <img src="jack1.jpg" class="pic1">
+  </div>
+
+  <div class="panel">  <img src="jack3.jpg" class="pic2"><div class="speech-bubble2">Above there are several links that wil bring you to pages displaying work from several foundation courses!</div></div>
+
+
+  <div class="panel"> <img src="jack4.jpg" class="pic3"><div class="speech-bubble3">Below Me are my Essays</div></div>
+
+
+  <div class="panel"><img src="jack2.jpg" class="pic4 "><div class="speech-bubble4">I hope you Enjoy!</div></div>
+
+</div>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+<div class="comic-textbox">New Media Journey</div>
+<div class="comic-textbox8">
+  <div class="row">
+    <div class="column">
+      <img src="NMJ.jpg" class="hover-shadow" height="200px" 
+           onclick="openLightbox(['NMJ.jpg', 'NMJ2.jpg'])">
+    </div>
+    <div class="column">
+      <img src="NMJ2.jpg" class="hover-shadow" height="200px" 
+           onclick="openLightbox(['NMJ.jpg', 'NMJ2.jpg'])">
+    </div>
+  </div>
+</div>
+
+<div class="comic-textbox">Future Proposal</div>
+<div class="comic-textbox8">
+  <div class="row">
+    <div class="column">
+      <img src="fp1.jpg" class="hover-shadow" height="200px" 
+           onclick="openLightbox(['fp1.jpg', 'fp2.jpg'])">
+    </div>
+    <div class="column">
+      <img src="fp2.jpg" class="hover-shadow" height="200px" 
+           onclick="openLightbox(['fp1.jpg', 'fp2.jpg'])">
+    </div>
+  </div>
+</div>
+
+<div id="portfolioModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div id="modal-image-container">
+      </div>
+    
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div>
+ 
+ 
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="background-cycler">
+    <div class="background-img" id="img1"></div>
+    <div class="background-img" id="img2"></div>
+    <div class="background-img" id="img3"></div>
+</div>
+
+</body>
+
+
+
+
+
+</html>
