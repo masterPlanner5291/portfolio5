@@ -1,0 +1,88 @@
+html{
+    background-color: white;
+    font-family: sans-serif;
+    color:black;
+    font-size:50px;
+}
+
+div{
+    border: 1px solid black;
+}
+
+#gridcontainer{
+
+display: grid;
+grid-template-areas: 
+    "header header header"
+    " main main main"
+    "footer footer footer";
+    grid-template-columns: 40% 40% 20%;
+     border-width: 7px;
+}
+
+
+.header {
+    grid-area: header;
+    font-size: 1rem;
+    font-weight:bold ;
+    color: black;
+    height:30vh;
+    text-align: center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stretch{
+    width:100px;
+    height:100px;
+    background-color:greenyellow;
+    animation-name:stretch;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    position: absolute;
+  
+}
+
+
+@keyframes stretch{ 
+    
+    0%{ left:700px; top:700px; width:50px; height: 100px; background-color: green;}
+
+     95%{ left:250px; top:700px; width:850px; height: 50px;background-color: yellow;}
+
+          98%{ left:700px; top:620px; width:50px; height: 180px; background-color: yellowgreen;}
+
+            100%{ left:700px; top:700px; width:50px; height: 100px;background-color: green;}
+}
+
+
+
+.item1 {
+    grid-area: main;
+    height: 90vh;
+    background-color: white;
+    text-align: center;
+}
+
+.item2{
+    grid-area: main;
+     text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+}

@@ -1,0 +1,49 @@
+html{
+    background-color: white;
+    font-family: sans-serif;
+    color:black;
+    font-size:50px;
+}
+
+div{
+    border: 1px solid black;
+}
+
+#gridcontainer{
+
+display: grid;
+grid-template-areas: 
+    "header header header"
+    " main main main"
+    "footer footer footer";
+    grid-template-columns: 40% 40% 20%;
+     border-width: 7px;
+}
+
+
+.header {
+    grid-area: header;
+    font-size: 1rem;
+    font-weight:bold ;
+    color: black;
+    height:30vh;
+    text-align: center;
+    
+
+}
+
+.item1 {
+    grid-area: main;
+    height: 30vh;
+    background-color: white;
+    text-align: center;
+}
+
+.item2{
+    grid-area: main;
+     text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+}
